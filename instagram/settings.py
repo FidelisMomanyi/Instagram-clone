@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'tinymce',
-    'bootstrap4',
+    'bootstrap',
     'mainapp',
     'user_auth',
     'django_forms_bootstrap' ,
@@ -85,6 +85,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+        'USER': '<Your Database Username >',
+    'PASSWORD':'<Your Database Password>',
     }
 }
 
